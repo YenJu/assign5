@@ -114,4 +114,6 @@ void drawBrick(){
 
 }
 void mouseClicked(){
+if(status == GAME_PLAYING){
 theBall.mouseClicked();}
+}
